@@ -143,6 +143,7 @@
 
 #### 重置管理员密码
 ```bash
+docker exec -it RustDesk-API /bin/sh
 ./apimain reset-admin-pwd <pwd>
 ```
 
